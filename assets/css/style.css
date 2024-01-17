@@ -8,10 +8,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-    font-family: "Inconsolata", monospace;
-    color: #0d1e2d;
-    background-image: url("assets/img/background.png") no-repeat center;
-	background-size: cover;
+  font-family: "ClashDisplay-Regular", "ClashDisplay-Medium", "ClashDisplay-Light", "ClashDisplay-Variable", "ClashDisplay-ExtraLight", "ClashDisplay-SemiBold", "ClashDisplay-Bold";
+  color: #0d1e2d;
+  background-image: url("assets/img/background.png") no-repeat center;
+  background-size: cover;
 }
 
 a {
@@ -36,6 +36,7 @@ h6,
 .section {
   padding: 7rem 0;
 }
+
 .white-burger {
   width: 28px;
   height: 32px;
@@ -105,144 +106,149 @@ h6,
   outline: none;
 }
 
-.footerimage img{
-	object-fit: cover;
-	width: 745px;
-	height: 500px;
+.footerimage img {
+  object-fit: cover;
+  width: 745px;
+  height: 500px;
 }
 
-.logo{
-	width: 100%;
-	height: 50px;
-}
-.flogo{
-	width: 150px;
-	height: 80px;
-	
+.logo {
+  width: 50%;
 }
 
-.mbottom{
-	margin-bottom: 150px;
+.flogo {
+  width: 100%;
 }
 
-.bigh1{
-	font-size: 100px;
+.mbottom {
+  margin-bottom: 150px;
 }
 
-.bigh5{
-	font-size: 55px;
+.bigh1 {
+  font-size: 100px;
 }
 
-.bigh2{
-	font-size: 70px;
-}
-.standard-font{
-	font-size:18px;
-}
-.circlea{
-	border: 1px solid #000;
-	height:150px;
-	width:150px;
-	border-radius:50%;
-	text-align: center;
-	margin: 0 auto;
-
-}
-.circlea img{
-    margin: auto;
-	padding-top:30px;
-	width:60px;
-	
+.bigh5 {
+  font-size: 55px;
 }
 
-.circlea p{
-    margin: auto;
-	font-size: 80px;
-	
+.bigh2 {
+  font-size: 70px;
 }
-.circleawhite{
-	border: 1px solid #fff;
-	height:150px;
-	width:150px;
-	border-radius:50%;
-	text-align: center;
-	margin: 0 auto;
+
+.standard-font {
+  font-size: 18px;
+}
+
+.circlea {
+  border: 1px solid #000;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
 
 }
 
-.circleawhite p{
-    margin: auto;
-	padding-top:10px;
-	font-size: 80px;
-	
+.circlea img {
+  margin: auto;
+  padding-top: 30px;
+  width: 60px;
+
 }
 
-.smallp{
-	padding-top: 240px;
-	text-align: left !important;
-	font-size: 20px;
-	
+.circlea p {
+  margin: auto;
+  font-size: 80px;
+
 }
 
-.smallps{
-	padding-top: 350px;
-	text-align: left !important;
-	font-size: 20px;
+.circleawhite {
+  border: 1px solid #fff;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+
 }
 
-.banner1{
-	border: 25px solid #000;
-	border-radius: 20px;
-	padding:0px;
-	
-}
-.banner1 img{
-	object-fit: cover;
-	width:100%;
-	height: 620px;
-	
+.circleawhite p {
+  margin: auto;
+  padding-top: 10px;
+  font-size: 80px;
+
 }
 
-.sborder{
-	border-right: 1px solid #707070;
+.smallp {
+  padding-top: 240px;
+  text-align: left !important;
+  font-size: 20px;
+
 }
 
-.sborderl{
-	border-left: 1px solid #707070;
+.smallps {
+  padding-top: 350px;
+  text-align: left !important;
+  font-size: 20px;
 }
 
-.text-right{
-	text-align: right;
-}
-.services{
-	background-color: #000;
-	color: #fff;
-	padding-top: 30px;
-	padding-bottom: 30px;
+.banner1 {
+  border: 25px solid #000;
+  border-radius: 20px;
+  padding: 0px;
+
 }
 
-.bgdark{
-	background-color: #000;
+.banner1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 620px;
+
+}
+
+.sborder {
+  border-right: 1px solid #707070;
+}
+
+.sborderl {
+  border-left: 1px solid #707070;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.services {
+  background-color: #000;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bgdark {
+  background-color: #000;
 }
 
 .section {
   padding: 7rem 0;
 }
 
-.linetop{
-	border-top: 1px solid #D9DDDC;
-	min-height: 300px;
+.linetop {
+  border-top: 1px solid #D9DDDC;
+  min-height: 300px;
 }
 
-.linerl{
-	border-right: 1px solid #D9DDDC;
-	border-left: 1px solid #D9DDDC;
+.linerl {
+  border-right: 1px solid #D9DDDC;
+  border-left: 1px solid #D9DDDC;
 }
 
-.sectop{
-	margin-top:100px;
-	margin-bottom:50px;
+.sectop {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -318,7 +324,7 @@ h6,
   cursor: pointer;
   position: relative;
   z-index: 1;
-  
+
 }
 
 .burger:before,
