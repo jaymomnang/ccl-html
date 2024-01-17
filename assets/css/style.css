@@ -10,7 +10,7 @@
 body {
   font-family: "ClashDisplay-Regular", "ClashDisplay-Medium", "ClashDisplay-Light", "ClashDisplay-Variable", "ClashDisplay-ExtraLight", "ClashDisplay-SemiBold", "ClashDisplay-Bold";
   color: #0d1e2d;
-  background-image: url("assets/img/background.png") no-repeat center;
+  background: url("assets/img/bg.png") center;
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@ h6,
 }
 
 .section {
-  padding: 7rem 0;
+  padding:3rem 0;
 }
 
 .white-burger {
@@ -117,7 +117,7 @@ h6,
 }
 
 .flogo {
-  width: 100%;
+  width: 30%;
 }
 
 .mbottom {
@@ -181,14 +181,14 @@ h6,
 }
 
 .smallp {
-  padding-top: 240px;
+  padding-top: 150px;
   text-align: left !important;
   font-size: 20px;
 
 }
 
 .smallps {
-  padding-top: 350px;
+  padding-top: 300px;
   text-align: left !important;
   font-size: 20px;
 }
@@ -215,6 +215,10 @@ h6,
   border-left: 1px solid #707070;
 }
 
+.imgPWidth{
+  width: 100%;
+}
+
 .text-right {
   text-align: right;
 }
@@ -231,7 +235,7 @@ h6,
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 3rem 0;
 }
 
 .linetop {
@@ -302,7 +306,7 @@ h6,
 
 /* Custom Navbar */
 .custom-navbar {
-  padding-top: 50px;
+  padding-top: 30px;
   width: 100%;
 }
 
@@ -389,11 +393,21 @@ h6,
   outline: none;
 }
 
+
+
+/* Colors */
+.prmColor{
+  background-color: #B4CF04;
+}
+.prmColor:hover{
+  background-color: #98A82E !important;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  padding: 0 0 4rem 0;
+  padding: 4rem 0;
 }
 
 .footer a {
